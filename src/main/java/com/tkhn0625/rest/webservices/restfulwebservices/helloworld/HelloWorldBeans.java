@@ -1,4 +1,4 @@
-package com.tkhn0625.rest.webservices.restfulwebservices;
+package com.tkhn0625.rest.webservices.restfulwebservices.helloworld;
 
 public class HelloWorldBeans {
     private String name;
