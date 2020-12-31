@@ -20,6 +20,13 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.3.7.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
+	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.11.3'
+	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
+	compile group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
 }
 
 test {
